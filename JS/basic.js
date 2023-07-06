@@ -1,0 +1,14 @@
+var myname = "Sakura Haruno";
+console.log(`My name is ${myname}`);
+console.log(myname.length);
+console.log(myname.slice(0,6));
+console.log(myname.split(" "));
+var a = 1;
+var b = 2;
+console.log(a+" "+b);
+[a,b] = [b,a];
+console.log(a+" "+b);
+var c = a;
+a = b;
+b = c;
+console.log(a+" "+b);
